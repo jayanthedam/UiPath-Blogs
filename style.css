@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 90vw;
+  max-width: 80vw;
   padding: 2rem 1rem;
   margin: 0 auto;
 }
@@ -29,8 +29,11 @@ a {
   line-height: 2rem;
   font-weight: 700;
   text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
 }
 .head_p {
+  font-weight: 600;
   max-width: 568px;
   font-size: 1rem;
   text-align: center;
@@ -61,12 +64,8 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
+  border: 1px solid rgb(148, 145, 145);
   border-radius: 5px;
-}
-.border_radious{
-    overflow: hidden;
-    border: 1px solid rgb(187, 180, 180);
 }
 .card_container:hover .card_image {
   transform: scale(1.1);
@@ -97,9 +96,7 @@ a {
   color: rgb(57, 54, 54);
 }
 .card_title:hover {
-  background-color: #ff6900;
-  color: white;
-  border-radius: 2px;
+  color: #ff6900;
 }
 .card_desc {
   color: rgb(85, 80, 80);
@@ -109,17 +106,20 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
+  
 }
 .card_author_container {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  margin: 10px;
+  gap: 1rem;
+  bottom: 0;
 }
 .author_avatar {
   height: 2.5em;
   width: 2.5rem;
-  /* overflow: hidden; */
+  overflow: hidden;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid rgb(50, 47, 47);
@@ -143,5 +143,5 @@ a {
   border-radius: 5px;
   padding: 0.25rem 0.5rem;
   line-height: 1.3rem;
-  margin: 20px;
+  /* margin: 20px; */
 }
