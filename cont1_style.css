@@ -11,14 +11,74 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container {
+/* .container {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(1, 1fr);
   width: 60vw;
   padding: 2rem 1rem;
   margin: 0 auto;
+} */
+@media (min-width:370px){
+  .container{
+    display: grid;
+    width: 90vw;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0.7rem;
+    margin: 0 auto;
+  }
+  .container_img{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 20rem;
+    align-items: center;
+    border-radius: 7px;
+  }
 }
+
+@media (min-width:550px){
+  .container{
+    display: grid;
+    width: 80vw;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .container_img{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 20rem;
+    align-items: center;
+    border-radius: 7px;
+  }
+}
+
+@media (min-width:820px){
+  .container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    width: 60vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+  .container_img {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 20rem;
+    width: 60vw;
+    align-items: center;
+    border-radius: 7px;
+  }
+}
+
 .container_head {
   color: #ff6900;
   text-align: center;
@@ -44,15 +104,7 @@ body {
 .container_para {
   font-size: 1.2rem;
 }
-.container_img {
-  display: flex;
-  flex-direction: column;
-  object-fit: cover;
-  height: 20rem;
-  width: 60vw;
-  align-items: center;
-  border-radius: 7px;
-}
+
 .color_para_org {
   color: #ff6900;
   font-weight: bold;
