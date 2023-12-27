@@ -234,3 +234,8 @@ a {
   line-height: 1.3rem;
   /* margin: 20px; */
 }
+
+.color_para_org {
+  color: #ff6900;
+  font-weight: bold;
+}
