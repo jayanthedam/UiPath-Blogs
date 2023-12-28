@@ -239,3 +239,14 @@ a {
   color: #ff6900;
   font-weight: bold;
 }
+.logo_text{
+  color: #1264c4;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: black;
+  transform: color 0.1s;
+}
