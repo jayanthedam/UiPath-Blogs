@@ -21,7 +21,10 @@ body {
   
 } */
 
-
+.navbar-toggler{
+  border: 1px solid white;
+  
+}
 .logo_side{
   display: flex;
   align-items: center;
