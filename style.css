@@ -246,3 +246,16 @@ a {
   color: black;
   transform: color 0.1s;
 }
+
+.carousel-text{
+  padding: 10px;
+  padding-left: 5px;
+  padding-left: 5px;
+  background-color: rgba(0, 0,0, 0.6);
+  border-radius: 15px;
+}
+
+.carousel-link{
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
