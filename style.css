@@ -256,6 +256,42 @@ a {
 }
 
 .carousel-link{
-  -webkit-text-stroke-width: 1.5px;
+  font-size: 22px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+@media (min-width: 950px) {
+  #myCarousel {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+}
+
+@media (max-width: 950px) {
+  .carousel-link{
+  -webkit-text-stroke-width: 0.5px;
+    font-size:medium;
+  }
+  .carousel-text{
+    font-size: medium;
+
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .carousel-link{
+    font-size:small;
+    padding: 0px;
+    margin: 0px;
+  }
+  .carousel-text{
+    margin: 0px;
+    padding: 3px;
+    font-size: small;
+
+  }
+  
 }
