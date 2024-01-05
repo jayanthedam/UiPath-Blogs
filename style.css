@@ -257,7 +257,8 @@ a {
 
 .carousel-link{
   font-size: 22px;
-  -webkit-text-stroke-width: 1px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
 
