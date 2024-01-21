@@ -213,6 +213,20 @@ a {
   .magic-text {
     font-size: 50px;
   }
+  .scroller{
+      background-image: url("images/Inspire_mobile.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 100px;
+
+  }
 }
 
 .container {
