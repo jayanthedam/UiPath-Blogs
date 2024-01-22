@@ -25,15 +25,14 @@ a {
   font-weight: bold;
   margin: 0px 10px;
 }
-@media (max-width: 350) {
-  .logo_text {
-    color: #1264c4;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0px 10px;
-  }
-  .navbar-brand img{
-    height: 30;
+#logo_img{
+  width : auto;
+  height :40px !important;
+}
+@media (min-width: 300px) {
+  #logo_img{
+    height: 32px !important;
+    width: auto;
   }
 }
 
