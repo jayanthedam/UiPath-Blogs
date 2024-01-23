@@ -6,7 +6,7 @@ let allDetails=[
             {
                 "name": "Krishnanand S H",
                 "Id": "https://www.linkedin.com/in/krishnanandsh/",
-                "pic": "./Images/Krishnanand S H.png"
+                "pic": "./Images/Praneetha.png"
             }
         ]
     },
