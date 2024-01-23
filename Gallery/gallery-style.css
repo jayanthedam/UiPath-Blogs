@@ -11,6 +11,15 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.glass{
+  background: linear-gradient(135deg, #12121210, transparent);
+  /* background-color: white; */
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.056);
+}
+
 a {
   text-decoration: none !important;
 }
