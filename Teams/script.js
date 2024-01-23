@@ -6,7 +6,7 @@ let allDetails=[
             {
                 "name": "Krishnanand S H",
                 "Id": "https://www.linkedin.com/in/krishnanandsh/",
-                "pic": "./Images/Praneetha.png"
+                "pic": "./Images/Krishnanand S H.png"
             }
         ]
     },
@@ -17,7 +17,7 @@ let allDetails=[
             {
                 "name": "P Praneetha",
                 "Id": "https://www.linkedin.com/in/praneetha-potharaju/",
-                "pic": "./Images/default2.png"
+                "pic": "./Images/Praneetha.png"
             }
         ]
     },
