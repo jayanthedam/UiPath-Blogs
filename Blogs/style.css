@@ -170,15 +170,15 @@ a {
 
 
 
-/* .container {
+.container {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(1, 1fr);
   width: 60vw;
   padding: 2rem 1rem;
   margin: 0 auto;
-} */
-/* 
+}
+
 @media (min-width: 300px) {
   .container {
     display: grid;
@@ -341,4 +341,4 @@ a {
   border-radius: 5px;
   padding: 0.25rem 0.5rem;
   line-height: 1.3rem;
-} */
+}
