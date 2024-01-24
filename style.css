@@ -207,7 +207,7 @@ a {
 
 .magic-text {
   animation: background-pan 1s linear infinite;
-  background: orangered;
+  background: white;
   background-size: 200%;
   font-family: "Poppins", sans-serif;
   font-size: 100px;
