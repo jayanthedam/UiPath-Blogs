@@ -25,7 +25,7 @@
 }
 
 .member{
-    height:300px;
+    height:330px;
     width:270px;
     padding: 6px;
     overflow: hidden;   
@@ -61,7 +61,7 @@
     margin: auto;
     height:100%;
     width: 80%;
-    border-radius: 11px;
+    border-radius: 45%;
     /* border: 5px solid #fff; */
 }
 /* .member-img:hover{

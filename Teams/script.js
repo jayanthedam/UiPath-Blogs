@@ -11,18 +11,25 @@ let allDetails=[
         ]
     },
     {
-        "role": "Student Champion:",
+        "role": "Student Champions:",
         "class": "champ",
         "members": [
             {
                 "name": "P Praneetha",
                 "Id": "https://www.linkedin.com/in/praneetha-potharaju/",
-                "pic": "./Images/Praneetha.png"
+                "pic": "./Images/Praneetha.png",
+                "year": "2023-2024"
+            },
+            {
+                "name": "Aarthi Mupparthy",
+                "Id": "https://www.linkedin.com/in/m-aarthi/",
+                "pic": "./Images/Aarthi Mupparthy.jpg",
+                "year": "2022-2023"
             }
         ]
     },
     {
-        "role": "Organizers:",
+        "role": "Co-Organizers:",
         "class": "org",
         "members": [
             {
@@ -33,7 +40,7 @@ let allDetails=[
             {
                 "name": "E Jayanth",
                 "Id": "https://www.linkedin.com/in/jayanth-edam/",
-                "pic": "./Images/Jayanth.jpg"
+                "pic": "./Images/E Jayanth.jpg"
             }
         ]
     },
@@ -44,7 +51,7 @@ let allDetails=[
             {
                 "name": "Tarun",
                 "Id": "https://www.linkedin.com/in/tarun26/",
-                "pic": "./Images/default1.png"
+                "pic": "./Images/Tarun.jpg"
             },
             {
                 "name": "Varun",
@@ -54,7 +61,7 @@ let allDetails=[
             {
                 "name": "Jayanth",
                 "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
-                "pic": "./Images/default1.png"
+                "pic": "./Images/D Jayanth.jpg"
             },
             {
                 "name": "Madhav",
@@ -113,6 +120,20 @@ var container = document.createElement('div');
             nameHeader.className = 'detail';
             nameHeader.className = 'name';
             nameHeader.textContent = member.name;
+            
+            var champYear = document.createElement('h1');
+            champYear.className = 'detail';
+            champYear.className = 'year';
+            champYear.style.fontSize= "1rem";
+            champYear.style.fontWeight="bold";
+            champYear.className="text-center";
+            // champYear.style.marginBottom="25px";
+            roleDiv.appendChild(champYear);
+    
+            
+            if (member.year) {  
+                champYear.textContent = member.year;
+            }
 
             var idHeader = document.createElement('h2');
             idHeader.className = 'detail';
@@ -134,9 +155,14 @@ var container = document.createElement('div');
 
             detailsDiv.appendChild(nameHeader);
             detailsDiv.appendChild(idHeader);
-
+            detailsDiv.appendChild(champYear)
+            
             mainDiv.appendChild(imgDiv);
+            
             mainDiv.appendChild(detailsDiv);
+            // mainDiv.appendChild(champYear);
+            
+
 
             memberDiv.appendChild(mainDiv);
 
