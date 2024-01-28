@@ -66,7 +66,7 @@ let allDetails=[
             {
                 "name": "Madhav",
                 "Id": "https://www.linkedin.com/in/madhavmadupu/",
-                "pic": "./Images/default1.png"
+                "pic": "./Images/Madhav.png"
             },
             {
                 "name": "Vinay",
