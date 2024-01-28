@@ -71,7 +71,7 @@ let allDetails=[
             {
                 "name": "Vinay",
                 "Id": "https://www.linkedin.com/in/vinay-bolloju-9b7680278/",
-                "pic": "./Images/default1.png"
+                "pic": "./Images/Vinay.png"
             }
         ]
     }
