@@ -7,7 +7,8 @@ let allDetails=[
                 "name": "Krishnanand S H",
 
                 "Id": "https://www.linkedin.com/in/krishnanandsh/",
-                "pic": "./Images/Krishnanand S H.png"
+                "pic": "./Images/Krishnanand S H.png",
+                "role":"UiPath Mentor"
             }
         ]
     },
@@ -19,13 +20,13 @@ let allDetails=[
                 "name": "P Praneetha",
                 "Id": "https://www.linkedin.com/in/praneetha-potharaju/",
                 "pic": "./Images/Praneetha.png",
-                "year": "2023-2024"
+                "role": "2023-2024"
             },
             {
                 "name": "Aarthi Mupparthy",
                 "Id": "https://www.linkedin.com/in/m-aarthi/",
                 "pic": "./Images/Aarthi Mupparthy.jpg",
-                "year": "2022-2023"
+                "role": "2022-2023"
             }
         ]
     },
@@ -36,12 +37,14 @@ let allDetails=[
             {
                 "name": "S Ronak Jain",
                 "Id": "https://www.linkedin.com/in/sancheti-ronak-jain-60a42222b/",
-                "pic": "./Images/S Ronak-Jain.png"
+                "pic": "./Images/S Ronak-Jain.png",
+                "role":"Ex Core team member"
             },
             {
                 "name": "E Jayanth",
                 "Id": "https://www.linkedin.com/in/jayanth-edam/",
-                "pic": "./Images/E Jayanth.jpg"
+                "pic": "./Images/E Jayanth.jpg",
+                "role":"Web Developer"
             }
         ]
     },
@@ -52,27 +55,32 @@ let allDetails=[
             {
                 "name": "Tarun",
                 "Id": "https://www.linkedin.com/in/tarun26/",
-                "pic": "./Images/Tarun.jpg"
+                "pic": "./Images/Tarun.jpg",
+                "role":"Web Developer"
             },
             {
                 "name": "M Varun",
                 "Id": "https://www.linkedin.com/in/varun-manchikanti/",
-                "pic": "./Images/Varun.png"
+                "pic": "./Images/Varun.png",
+                "role":"Content Creator"
             },
             {
                 "name": "D Jayanth",
                 "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
-                "pic": "./Images/D Jayanth.jpg"
+                "pic": "./Images/D Jayanth.jpg",
+                "role":"Web Developer"
             },
             {
                 "name": "M Madhav",
                 "Id": "https://www.linkedin.com/in/madhavmadupu/",
-                "pic": "./Images/Madhav.png"
+                "pic": "./Images/Madhav.png",
+                "role":"Web Developer"
             },
             {
                 "name": "B Vinay",
                 "Id": "https://www.linkedin.com/in/vinay-bolloju-9b7680278/",
-                "pic": "./Images/Vinay.png"
+                "pic": "./Images/Vinay.png",
+                "role":"Core Team member"
             }
         ]
     }
@@ -122,18 +130,18 @@ var container = document.createElement('div');
             nameHeader.className = 'name';
             nameHeader.textContent = member.name;
             
-            var champYear = document.createElement('h1');
-            champYear.className = 'detail';
-            champYear.className = 'year';
-            champYear.style.fontSize= "1rem";
-            champYear.style.fontWeight="bold";
-            champYear.className="text-center";
-            // champYear.style.marginBottom="25px";
-            roleDiv.appendChild(champYear);
+            var champRole = document.createElement('h1');
+            champRole.className = 'detail';
+            champRole.className = 'role';
+            champRole.style.fontSize= "1rem";
+            champRole.style.fontWeight="400";
+            champRole.className="Role";
+            // champRole.style.marginBottom="25px";
+            roleDiv.appendChild(champRole);
     
             
-            if (member.year) {  
-                champYear.textContent = member.year;
+            if (member.role) {  
+                champRole.textContent = member.role;
             }
 
             var idHeader = document.createElement('h2');
@@ -156,12 +164,12 @@ var container = document.createElement('div');
 
             detailsDiv.appendChild(nameHeader);
             detailsDiv.appendChild(idHeader);
-            detailsDiv.appendChild(champYear)
+            detailsDiv.appendChild(champRole)
             
             mainDiv.appendChild(imgDiv);
             
             mainDiv.appendChild(detailsDiv);
-            // mainDiv.appendChild(champYear);
+            // mainDiv.appendChild(champRole);
             
 
 

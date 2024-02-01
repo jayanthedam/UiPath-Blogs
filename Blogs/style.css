@@ -169,7 +169,7 @@ a {
 /* -------------------------------------------------------------- */
 
 .content-img{
-  height: 400px !important;
+  width: 80vw !important;
 }
 .container_para{
   font-size: large;
