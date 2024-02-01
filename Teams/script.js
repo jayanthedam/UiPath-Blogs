@@ -5,6 +5,7 @@ let allDetails=[
         "members": [
             {
                 "name": "Krishnanand S H",
+
                 "Id": "https://www.linkedin.com/in/krishnanandsh/",
                 "pic": "./Images/Krishnanand S H.png"
             }
@@ -54,22 +55,22 @@ let allDetails=[
                 "pic": "./Images/Tarun.jpg"
             },
             {
-                "name": "Varun",
+                "name": "M Varun",
                 "Id": "https://www.linkedin.com/in/varun-manchikanti/",
                 "pic": "./Images/Varun.png"
             },
             {
-                "name": "Jayanth",
+                "name": "D Jayanth",
                 "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
                 "pic": "./Images/D Jayanth.jpg"
             },
             {
-                "name": "Madhav",
+                "name": "M Madhav",
                 "Id": "https://www.linkedin.com/in/madhavmadupu/",
                 "pic": "./Images/Madhav.png"
             },
             {
-                "name": "Vinay",
+                "name": "B Vinay",
                 "Id": "https://www.linkedin.com/in/vinay-bolloju-9b7680278/",
                 "pic": "./Images/Vinay.png"
             }
