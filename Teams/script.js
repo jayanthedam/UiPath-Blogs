@@ -53,13 +53,13 @@ let allDetails=[
         "class": "core",
         "members": [
             {
-                "name": "Tarun",
+                "name": "Tarun Vuppala",
                 "Id": "https://www.linkedin.com/in/tarun26/",
                 "pic": "./Images/Tarun.jpg",
                 "role":"Web Developer"
             },
             {
-                "name": "M Varun",
+                "name": "Manchikanti Varun",
                 "Id": "https://www.linkedin.com/in/varun-manchikanti/",
                 "pic": "./Images/Varun.png",
                 "role":"Content Creator"
