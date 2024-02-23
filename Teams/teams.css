@@ -53,6 +53,7 @@
     justify-items: center;
     align-items: center;
     padding: 10px;
+    margin: 0;
     object-fit: cover;
     /* background-color: white; */
 }
@@ -98,7 +99,7 @@ a:hover{
 
 .details{
     height:50%;
-    padding: 10px;
+    padding: 10px 10px 10px 5px;
     color: black;
     display: flex;
     flex-direction: column;
