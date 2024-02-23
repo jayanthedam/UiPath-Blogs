@@ -1,6 +1,6 @@
 let allDetails=[
     {
-        "role": "Mentor:",
+        "role": "Mentors:",
         "class": "mentor",
         "members": [
             {
@@ -10,16 +10,16 @@ let allDetails=[
                 "role":"Director - Training and Placements"
             },
             {
-                "name": "Krishnanand S H",
-                "Id": "https://www.linkedin.com/in/krishnanandsh/",
-                "pic": "./Images/Krishnanand S H.png",
-                "role":"UiPath Educator"
-            },
-            {
                 "name": "Y V S Durga Prasad",
                 "Id": "https://www.linkedin.com/in/y-v-s-durga-prasad-76214928b/",
                 "pic": "./Images/Y V S Durga Prasad.jpg",
                 "role":"Placement Officer"
+            },
+            {
+                "name": "Krishnanand S H",
+                "Id": "https://www.linkedin.com/in/krishnanandsh/",
+                "pic": "./Images/Krishnanand S H.png",
+                "role":"UiPath Educator"
             }
         ]
     },
