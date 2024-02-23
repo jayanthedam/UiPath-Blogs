@@ -7,7 +7,7 @@ let allDetails=[
                 "name": "T Srinivasa Rao",
                 "Id": "https://www.linkedin.com/in/prof-t-srinivasa-rao-40a1b687/",
                 "pic": "./Images/T Srinivasa Rao.jpg",
-                "role":"Director of TPC"
+                "role":"Director - Training and Placements"
             },
             {
                 "name": "Y V S Durga Prasad",
