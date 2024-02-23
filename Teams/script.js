@@ -76,19 +76,19 @@ let allDetails=[
                 "role":"Content Creator"
             },
             {
-                "name": "D Jayanth",
+                "name": "Devupalli Jayanth",
                 "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
                 "pic": "./Images/Jayanth D.jpg",
                 "role":"Web Developer"
             },
             {
-                "name": "M Madhav",
+                "name": "Madhav Madupu",
                 "Id": "https://www.linkedin.com/in/madhavmadupu/",
                 "pic": "./Images/Madhav.png",
                 "role":"Web Developer"
             },
             {
-                "name": "B Vinay",
+                "name": "Vinay Bolloju",
                 "Id": "https://www.linkedin.com/in/vinay-bolloju-9b7680278/",
                 "pic": "./Images/Vinay.png",
                 "role":"Core Team member"
@@ -117,7 +117,7 @@ let allDetails=[
             {
                 "name": "Shivathmika Bollapally",
                 "Id": "https://www.linkedin.com/in/shivathmika-bollapally-037547264/",
-                "pic": "./Images/Shivatmika.jpg",
+                "pic": "./Images/Shivathmika.jpg",
             },
         ]
     }
