@@ -67,7 +67,7 @@ let allDetails=[
             {
                 "name": "D Jayanth",
                 "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
-                "pic": "./Images/D Jayanth.jpg",
+                "pic": "./Images/Jayanth D.jpg",
                 "role":"Web Developer"
             },
             {
