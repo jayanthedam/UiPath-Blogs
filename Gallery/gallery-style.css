@@ -41,8 +41,8 @@ body {
 .bsb-overlay-hover a:hover img {
   transform: scale(1.1) !important;
 }
+/*  */
 
-/* 
 
 * {
   margin: 0;
@@ -153,4 +153,4 @@ a {
   font-weight: 400;
   font-size: 1.4rem;
   text-align:center;
-} */
+}
