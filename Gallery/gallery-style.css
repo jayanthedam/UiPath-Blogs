@@ -1,3 +1,49 @@
+/* gallery-style.css */
+body {
+  font-family: Arial, sans-serif !important;
+  background-color: #f8f9fa !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.main-container {
+  padding: 20px !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.event-title {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  margin-top: 20px !important;
+  color: #343a40 !important;
+}
+
+.event-info {
+  font-size: 16px !important;
+  margin-bottom: 20px !important;
+  color: #6c757d !important;
+}
+
+.bsb-project-1-item {
+  margin-bottom: 20px !important;
+}
+
+.bsb-project-1-item img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.bsb-overlay-hover a img {
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.bsb-overlay-hover a:hover img {
+  transform: scale(1.1) !important;
+}
+
+/* 
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +59,6 @@ body {
 
 .glass{
   background: linear-gradient(135deg, #12121210, transparent);
-  /* background-color: white; */
   backdrop-filter: blur(10px);
   border: none;
   border-radius: 20px;
@@ -103,10 +148,9 @@ a {
   font-weight: 700;
   margin : 1rem;
   text-align:center;
-/*   text-decoration: underline; */
 }
 .event-info{
   font-weight: 400;
   font-size: 1.4rem;
   text-align:center;
-}
+} */
